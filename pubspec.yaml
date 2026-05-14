@@ -1,0 +1,43 @@
+name: sign_bridge
+description: "SignBridge - Turk Isaret Dili Tanima ve Avatar Sistemi"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  camera: ^0.11.1
+  http: ^1.4.0
+  webview_flutter: ^4.13.0
+  webview_flutter_android: ^4.4.0
+  permission_handler: ^12.0.0
+  shared_preferences: ^2.3.4
+  path_provider: ^2.1.5
+  # Faz A: hizli akis (WebSocket + YUV->JPEG isolate)
+  socket_io_client: ^3.0.2
+  image: ^4.3.0
+  # Faz B: ONNX Runtime ile GRU'yu telefonda calistir
+  onnxruntime: ^1.4.1
+  # TTS — kamera tahminlerini sesli oku
+  flutter_tts: ^4.2.0
+  # STT — avatar kismi: konusup metne yaz
+  speech_to_text: ^7.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/saved_poses.json
+    - assets/avatar/rain.glb
+    - assets/avatar/step4_blender_player.html
+    - assets/avatar/mobile.html
+    - assets/model/model_v2.onnx
+    - assets/model/label_map.json
