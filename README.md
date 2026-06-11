@@ -13,6 +13,14 @@ Kameraya yapılan işareti **Türkçe metne ve sese** çevirir; yazılan/söylen
 ![Offline](https://img.shields.io/badge/%C3%87al%C4%B1%C5%9Fma-%C3%87evrimd%C4%B1%C5%9F%C4%B1-success)
 ![Vocab](https://img.shields.io/badge/Kelime-122-blueviolet)
 
+![License](https://img.shields.io/github/license/esmasila/SignBridge-Mobile?color=blue)
+![Last commit](https://img.shields.io/github/last-commit/esmasila/SignBridge-Mobile)
+![Stars](https://img.shields.io/github/stars/esmasila/SignBridge-Mobile?style=social)
+
+<br/>
+
+<img src="docs/banner.png" width="780" alt="SignBridge Mobile"/>
+
 </div>
 
 ---
@@ -26,11 +34,17 @@ Kameraya yapılan işareti **Türkçe metne ve sese** çevirir; yazılan/söylen
 
 > 🔌 **Tamamen çevrimdışı:** MediaPipe ile anahtar nokta çıkarımı ve ONNX modeliyle sınıflandırma **doğrudan telefonda** çalışır. Hiçbir görüntü buluta/sunucuya gönderilmez.
 
+### 🎬 Demo
+
 <div align="center">
+
+<img src="docs/demo.gif" width="720" alt="SignBridge demo"/>
+
+<br/><br/>
 
 | Kamera (TİD→Türkçe) | Avatar (Türkçe→TİD) |
 |:---:|:---:|
-| <img src="docs/screenshots/mobile_camera.png" width="300"/> | <img src="docs/screenshots/mobile_avatar.png" width="300"/> |
+| <img src="docs/screenshots/mobile_camera.png" width="280"/> | <img src="docs/screenshots/mobile_avatar.png" width="280"/> |
 
 </div>
 
